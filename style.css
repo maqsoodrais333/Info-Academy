@@ -1,0 +1,336 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header .nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+header .nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2%;
+}
+.headbreak{
+    border: teal 0.5px solid;
+    width: 30%;
+    margin-top: 2%;
+}
+.sec1{
+    padding-bottom: 10%;
+}
+.sec1 .head{
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+.sec1 .head h1{
+    display: inline-block;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    font-size: 50px;
+    border-bottom: teal 2px solid;
+}
+.sec1 .head h1 span{
+    color: rgb(5, 92, 92);
+}
+.sec1 .head button{
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: teal;
+    color: white;
+    border: white 1px solid;
+    cursor: pointer;
+}
+.sec1 .head button:hover{
+    color: black;
+    border: black 2px solid;
+    background-color: transparent
+}
+.sec1 img{
+    float: right;
+    margin-top: 6%;
+    margin-right: 5%;
+    box-shadow: 4px 4px 4px 3px rgb(87, 87, 87);
+}
+
+.sec2{
+    background-color: teal;
+    padding-bottom: 2%;
+}
+.sec2 .head{
+    display: inline-block;
+    padding-top: 2%;
+    margin-left: 6%;
+    color: white;
+}
+.sec2 .head h1{
+    display: inline-block;
+    border-bottom: white 2px solid;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
+}
+.sec2 .head button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: white 1px solid
+}
+.sec2 .head button:hover{
+    background-color: teal;
+    border: white 2px solid;
+    color: white;
+    cursor: pointer;
+}
+.sec2 img{
+    float: right;
+    margin-top: 3%;
+    margin-right: 12%;
+    border-radius: 80px;
+    box-shadow: 2px 2px 2px 3px rgb(87, 87, 87);
+}
+.sec3{
+    background-color: rgb(226, 226, 226);
+    padding-bottom: 3%;
+}
+.sec3 .head{
+    display: flex;
+    justify-content: center;    
+    padding-top: 4%;
+}
+.sec3 .head h1{
+    display: inline-block;
+    margin-top: 0%;
+    text-align: center;
+    border-bottom: black 1px solid;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+.sec3 .lists{
+    text-align: center;
+}
+.sec3 .lists .list1 li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 6%;
+    padding: 8px 14px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 3px rgb(87, 87, 87);
+}
+.sec3 .lists .list1 li:hover{
+    background-color: teal;
+    color: white;
+}
+.sec3 .lists .list2 li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 6%;
+    padding: 8px 14px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 3px rgb(87, 87, 87);
+}
+.sec3 .lists .list2 li:hover{
+    background-color: teal;
+    color: white;
+}
+.sec4{
+    padding-bottom: 3%;
+}
+.sec4 .head{
+    margin-top: 4%;
+    margin-left: 4%;
+    text-align: center;
+}
+.sec4 .head h1{
+    display: inline-block;
+    border-bottom: black 1px solid;
+    padding-bottom: 1%;
+}
+.sec4 .books{
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 10%;
+    border-right: teal 1px solid;
+    padding-right: 8%;
+}
+.sec4 .books button{
+    padding: 8px 14px;
+    border: black 2px solid;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(87, 87, 87);
+    cursor: pointer;
+}
+.sec4 .books button:hover{
+    background-color: teal;
+    color: white;
+    border: white 2px solid;
+}
+.sec4 .books h2{
+    font-size: 30px;
+}
+.sec4 .books h2 span{
+    color: teal;
+}
+.sec4 .pastpapers{
+    float: right;
+    margin-top: 4%;
+    margin-right: 8%;
+    border-left: teal 1px solid;
+    padding-left: 10%;
+}
+.sec4 .pastpapers h2{
+    font-size: 30px;
+}
+.sec4 .pastpapers h2 span{
+    color: teal;
+}
+.sec4 .pastpapers button{
+    padding: 8px 14px;
+    border: black 2px solid;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(87, 87, 87);
+    cursor: pointer;
+}
+.sec4 .pastpapers button:hover{
+    background-color: teal;
+    color: white;
+    border: white 2px solid;
+}
+.facility{
+    margin-top: 6%;
+    padding-top: 4%;
+}
+.sec5{
+    background-color: rgb(226, 226, 226);
+    padding-bottom: 4%;
+}
+.sec5 .emarking{
+    display: inline-block;
+    margin-top: 4%;
+    border-right: black 1px solid;
+    padding-right: 3.5%;
+    margin-left: 10%;
+    color: black;
+}
+.sec5 .emarking h2{
+    font-size: 30px;
+}
+.sec5 .emarking h2 span{
+    color: teal;
+}
+.sec5 .emarking button{
+    padding: 8px 14px;
+    border: white 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(87, 87, 87);
+    cursor: pointer;
+}
+.sec5 .emarking button:hover{
+    background-color: teal;
+    color: white;
+    border: white 2px solid;
+}
+.sec5 .vidcourses{
+    float: right;
+    color: black;
+    margin-top: 4%;
+    margin-right: 4%;
+    border-left: black 1px solid;
+    padding-left: 9.2%;
+}
+.sec5 .vidcourses h2{
+    font-size: 30px;
+}
+.sec5 .vidcourses h2 span{
+    color: teal;
+}
+.sec5 .vidcourses button{
+    padding: 8px 14px;
+    border: white 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(87, 87, 87);
+    cursor: pointer;
+}
+.sec5 .vidcourses button:hover{
+    background-color: teal;
+    color: white;
+    border: white 2px solid;
+}
+
+.sec6{
+    background-color: white;
+    padding-bottom: 5%;
+}
+.sec6 .head h1{
+    margin-top: 0%;
+    text-align: center;
+    padding-top: 5%;
+}
+.sec6 .head p{
+    text-align: center;
+    text-shadow: 4px 4px 3px gray;
+}
+.sec6 form{
+    display: flex;
+    justify-content: center;
+}
+.sec6 form #searchbar{
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: teal;
+    font-size: 15px;
+}
+.sec6 form #searchbar::placeholder{
+    font-size: 15px
+}
+.sec6 form button{
+    background-color: teal;
+    border: 2px teal solid;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    background-color: rgb(5, 92, 92);
+    padding-bottom: 10%;
+}
+footer .head{
+    display: inline-block;
+    padding-top: 2%;
+    margin-left: 8%;
+}
+footer .head h2{
+    margin-bottom: 0%;
+}
+footer .list1{
+    margin-right: 15%;
+    margin-top: 2%;
+    float: right;
+}
+footer .list1 li{
+    list-style: none;
+}
+footer .list2{
+    margin-right: 15%;
+    margin-top: 2%;
+    float: right;
+}
+footer .list2 li{
+    list-style: none;
+}
